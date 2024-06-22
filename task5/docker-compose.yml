@@ -25,7 +25,7 @@ services:
       dockerfile: Dockerfile
     image: custom-nginx:latest
     ports:
-      - "80:80"  # Expose to host machine
+      - "80:80"
     depends_on:
       - back-end
       - front-end
