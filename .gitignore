@@ -1,0 +1,16 @@
+# Ignore Docker-specific files
+.dockerignore
+.docker/
+Dockerfile
+docker-compose.yml
+
+# Ignore local development files
+.env
+.vscode/
+.idea/
+*.pyc
+
+# Ignore logs and other temporary files
+logs/
+*.log
+*.tmp
